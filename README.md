@@ -1,6 +1,6 @@
 # Notes
 ## Git
-### git diff shows ^M at end of files
+### git diff shows ^M at end of files and interfers with line endings
 Add this to ~/.gitconfig
 ```
 [code]
