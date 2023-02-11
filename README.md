@@ -10,5 +10,5 @@ Add this to ~/.gitconfig
 ## Bash and basic scripting
 ### Print matched patterns; multiple patterns per line
 ```
-awk 'match($0, /some_pattern/) {print substr($0, RSTART, RLENGTH)} /pattern_2/) {print substr($0, RSTART, RLENGTH)}' file.txt 
+awk 'match($0, /some_pattern/) {print substr($0, RSTART, RLENGTH)} match($0, /pattern_2/) {print substr($0, RSTART, RLENGTH)}' file.txt 
 ```
